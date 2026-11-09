@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMA SEO AI - Free automated SEO agent</title>
+<meta name="description" content="A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.">
+<meta property="og:title" content="UMA SEO AI - Free automated SEO agent"><meta property="og:description" content="Daily SEO audit, speed check, competitor comparison, keywords and AI articles.">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="index.html">UMA SEO AI</a><nav><a href="index.html">Dashboard</a><a href="blog/index.html">Blog</a><a href="about.html">About</a><a href="faq.html">FAQ</a></nav></header>
+<main><h1>SEO agent dashboard</h1>
+<p>This agent runs by itself every day. It audits the site, measures speed with Google PageSpeed, compares the site with competitors, collects keyword ideas, writes SEO articles and plans fixes. Everything below is real data from the last run.</p>
+<div id="app"><p class="m">Loading...</p></div></main>
+<footer>Competitor search volume and backlinks need paid data, so they are not shown.</footer>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function J(p){try{const r=await fetch(p,{cache:'no-store'});return r.ok?await r.json():null}catch(e){return null}}
+const yn=v=>v===true?'Yes':v===false?'No':esc(v==null?'-':v);
+function chart(H){const P=H.filter(h=>h.score!=null);if(P.length<2)return '<p class="m">Trend chart will appear after 2 or more runs.</p>';
+ const w=600,h=110,st=P.length>1?(w-20)/(P.length-1):0,pt=P.map((p,i)=>(10+i*st)+','+(h-10-(h-20)*p.score/100)).join(' ');
+ return '<svg viewBox="0 0 '+w+' '+h+'"><polyline fill="none" stroke="currentColor" stroke-width="2" points="'+pt+'"/></svg><p class="m">SEO score, '+P[0].d+' to '+P[P.length-1].d+'</p>'}
+(async()=>{
+ const L=await J('data/latest.json'),H=await J('data/history.json')||[],o=$('#app');
+ if(!L){o.innerHTML='<div class="card"><p>The agent has not run yet. On GitHub open Actions, choose "UMA SEO AI Agent", then Run workflow.</p></div>';return}
+ const me=L.sites[0]||{},sp=(me.speed||{}).mobile||{},dk=(me.speed||{}).desktop||{};let h='';
+ h+='<div class="card"><h2>Overview</h2><p class="m">Last run: '+esc(L.generated)+'</p>';
+ if(me.error)h+='<p class="err">Site check failed: '+esc(me.error)+'</p>';
+ else h+='<div class="grid"><div>SEO score<b>'+me.score+'/100</b></div><div>Mobile speed<b>'+yn(sp.perf)+'</b></div><div>Desktop speed<b>'+yn(dk.perf)+'</b></div><div>Words<b>'+me.words+'</b></div><div>Keywords found<b>'+L.keywords.count+'</b></div><div>Articles<b>'+L.articles.length+'</b></div></div>'+chart(H);
+ h+='</div>';
+ if(!me.error){h+='<div class="card"><h2>Issues on the site</h2><ul>'+me.issues.map(i=>'<li class="'+i.l+'">'+esc(i.t)+'</li>').join('')+'</ul></div>';
+  h+='<div class="card"><h2>Speed (Google PageSpeed)</h2><table><tr><th></th><th>Mobile</th><th>Desktop</th></tr>'+[['Performance','perf'],['SEO','seo'],['Accessibility','acc'],['Best practices','bp'],['First paint','fcp'],['Largest paint','lcp'],['Blocking time','tbt'],['Layout shift','cls']].map(r=>'<tr><td>'+r[0]+'</td><td>'+yn(sp[r[1]])+'</td><td>'+yn(dk[r[1]])+'</td></tr>').join('')+'</table></div>'}
+ if(L.plan.length)h+='<div class="card"><h2>Action plan</h2><ul>'+L.plan.map(p=>'<li><b>['+esc(p.priority)+'] '+esc(p.title)+'</b><br>'+esc(p.detail)+'</li>').join('')+'</ul></div>';
+ if(L.competitors.length){const C=[['SEO score','score'],['Words','words'],['H2 headings','h2'],['Images','imgs'],['Internal links','int'],['Schema','schema'],['Sitemap','sitemap']];
+  h+='<div class="card"><h2>Competitors (on-page comparison)</h2><table><tr><th></th><th>You</th>'+L.competitors.map(c=>'<th>'+esc(new URL(c.url).hostname.replace('www.',''))+'</th>').join('')+'</tr>'+C.map(r=>'<tr><td>'+r[0]+'</td><td>'+yn(me[r[1]])+'</td>'+L.competitors.map(c=>'<td>'+yn(c[r[1]])+'</td>').join('')+'</tr>').join('')+'</table>'+(L.gaps.length?'<ul>'+L.gaps.map(g=>'<li class="warn">'+esc(g)+'</li>').join('')+'</ul>':'')+'</div>'}
+ const K=L.keywords;if(K.count){h+='<div class="card"><h2>Keywords (Google Autocomplete)</h2>';
+  if(K.tags.length)h+='<p class="m">Suggested tags</p><div class="chips">'+K.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'</div>';
+  if(K.titles.length)h+='<p class="m">Title ideas</p><ul>'+K.titles.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul>';
+  h+='<p class="m">Question keywords</p><div class="chips">'+K.questions.slice(0,40).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div></div>'}
+ if(L.sites.length>1)h+='<div class="card"><h2>Other sites</h2><table><tr><th>Site</th><th>Score</th><th>Mobile speed</th></tr>'+L.sites.slice(1).map(s=>'<tr><td>'+esc(s.url)+'</td><td>'+(s.error?esc(s.error):s.score)+'</td><td>'+yn(((s.speed||{}).mobile||{}).perf)+'</td></tr>').join('')+'</table></div>';
+ if(L.articles.length)h+='<div class="card"><h2>Latest articles</h2><ul class="posts">'+L.articles.slice(0,5).map(a=>'<li><a href="blog/'+esc(a.slug)+'.html">'+esc(a.title)+'</a><br><span class="m">'+esc(a.date)+'</span></li>').join('')+'</ul></div>';
+ if(L.errors.length)h+='<div class="card"><h2>Agent log</h2><ul>'+L.errors.map(e=>'<li class="err">'+esc(e)+'</li>').join('')+'</ul></div>';
+ o.innerHTML=h})();
+</script></body></html>

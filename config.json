@@ -1,0 +1,30 @@
+{
+  "site_name": "UMA SEO AI",
+  "my_site": "",
+  "niche": "free AI-powered SEO tool for websites: site audit, keyword ideas, competitor comparison, SEO articles",
+  "seed_keywords": [
+    "seo checker",
+    "free seo audit",
+    "keyword research",
+    "website seo",
+    "seo tips"
+  ],
+  "sites_to_audit": [],
+  "competitors": [],
+  "content_language": "en",
+  "report_language": "rur",
+  "articles_per_run": 1,
+  "publish_articles": true,
+  "monitor_auto_rollback": true,
+  "monitor_extra_urls": [],
+  "about_facts": [
+    "UMA SEO AI is a free SEO agent that runs automatically every day on GitHub Actions",
+    "It audits a website's on-page SEO: title, meta description, headings, images, links, schema, robots.txt and sitemap",
+    "It measures speed with Google PageSpeed Insights",
+    "It finds keyword ideas from Google Autocomplete and uses Gemini AI to write articles, tags and an action plan",
+    "It compares the site with competitor websites on on-page SEO",
+    "It does not show competitor search volume or backlinks because that data is paid",
+    "A monitor checks the site every hour and rolls the site back to the last working version if it breaks"
+  ],
+  "site_dir": ""
+}

@@ -1,0 +1,15 @@
+:root{--bg:#f5f3ee;--ink:#1b2430;--mut:#5d6b7a;--card:#fff;--line:#d9d4c7;--acc:#0b5d52;--accI:#fff;--bad:#b3261e;--warn:#9a6a00;--ok:#1b7a3d}
+@media(prefers-color-scheme:dark){:root{--bg:#10171d;--ink:#e8edf2;--mut:#98a6b5;--card:#18222b;--line:#2c3a46;--acc:#4fc3ae;--accI:#06211d;--bad:#ff8a80;--warn:#ffc15a;--ok:#6fdc97}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;justify-content:space-between;max-width:900px;margin:auto;padding:18px 16px}
+.brand{font-weight:700;font-size:1.25rem;color:var(--ink);text-decoration:none}nav a{margin-right:14px;color:var(--acc);text-decoration:none;font-weight:600}
+main{max-width:900px;margin:auto;padding:0 16px 40px}footer{max-width:900px;margin:auto;padding:0 16px 30px;color:var(--mut);font-size:.88rem}
+h1{font-size:1.7rem;margin:.4rem 0 .8rem}h2{font-size:1.2rem;margin:1.4rem 0 .4rem}a{color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}.card h2{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.grid div{border:1px solid var(--line);border-radius:8px;padding:8px 10px}.grid b{display:block;font-size:1.3rem}
+.m,.meta{color:var(--mut);font-size:.92rem}ul{padding-left:0;list-style:none}li{padding:6px 0;border-bottom:1px solid var(--line)}
+li.bad::before{content:"Zaroori: ";color:var(--bad);font-weight:600}li.warn::before{content:"Behtar: ";color:var(--warn);font-weight:600}li.ok::before{content:"Theek: ";color:var(--ok);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chips span{border:1px solid var(--line);border-radius:99px;padding:2px 11px;font-size:.9rem}
+table{width:100%;border-collapse:collapse;font-size:.93rem;display:block;overflow-x:auto}td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 20px 20px}article p,article li{max-width:70ch}.posts li{border:0;padding:10px 0}
+.err{color:var(--bad)}svg{width:100%;height:auto}
