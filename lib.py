@@ -150,21 +150,32 @@ def keywords(seeds, hl):
         if k and k not in seen: seen.add(k); out.append(k)
     return out
 
+GFAILS = [0]
+MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-flash-latest", "gemini-3.5-flash"]
+
 def gemini(prompt, key, json_mode=False):
-    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+    if GFAILS[0] >= 3: raise RuntimeError("Gemini abhi jawab nahi de raha, baqi AI kaam agli run mein honge")
+    models = [m for m in [os.environ.get("GEMINI_MODEL")] + MODELS if m]
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     if json_mode: body["generationConfig"] = {"responseMimeType": "application/json"}
-    for i in range(4):
-        st, txt, _, _ = get("https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model, timeout=180,
-                            headers={"Content-Type": "application/json", "x-goog-api-key": key}, data=json.dumps(body).encode())
-        if st == 200:
-            c = (json.loads(txt).get("candidates") or [{}])[0]
-            out = "".join(p.get("text", "") for p in (c.get("content") or {}).get("parts", []))
-            if out: return out
-            raise RuntimeError("Gemini ne khali jawab diya")
-        if st in (429, 500, 503): time.sleep(20 * (i + 1)); continue
-        raise RuntimeError("Gemini error %s: %s" % (st, txt[:160]))
-    raise RuntimeError("Gemini limit/busy (429), agli run mein dobara try hoga")
+    deadline = time.time() + 240; last = []
+    for rnd in range(2):
+        for m in models:
+            left = deadline - time.time()
+            if left < 15: break
+            st, txt, _, _ = get("https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % m, timeout=min(90, int(left)),
+                                headers={"Content-Type": "application/json", "x-goog-api-key": key}, data=json.dumps(body).encode())
+            if st == 200:
+                try:
+                    c = (json.loads(txt).get("candidates") or [{}])[0]
+                    out = "".join(p.get("text", "") for p in (c.get("content") or {}).get("parts", []) if not p.get("thought"))
+                except Exception: out = ""
+                if out: GFAILS[0] = 0; return out
+                last.append("%s: khali jawab" % m); continue
+            last.append("%s: %s" % (m, "no reply" if st == 0 else st))
+            if st == 429: time.sleep(10)
+    GFAILS[0] += 1
+    raise RuntimeError("Gemini fail: " + " | ".join(last)[:300])
 
 def gjson(prompt, key):
     t = re.sub(r"^```(?:json)?|```$", "", gemini(prompt, key, True).strip(), flags=re.M).strip()
