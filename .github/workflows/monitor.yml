@@ -1,0 +1,29 @@
+name: UMA Site Monitor
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: uma-agent
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          git config user.name "uma-seo-agent"
+          git config user.email "uma-seo-agent@users.noreply.github.com"
+      - run: python monitor.py
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
