@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T20:40:27+00:00",
+ "generated": "2026-11-09T21:21:39+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 116,
+   "ms": 103,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -49,8 +49,26 @@
     }
    ],
    "speed": {
-    "mobile": null,
-    "desktop": null
+    "mobile": {
+     "perf": 99,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.8 s",
+     "lcp": "0.8 s",
+     "tbt": "0 ms",
+     "cls": "0"
+    },
+    "desktop": {
+     "perf": 77,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.2 s",
+     "lcp": "0.2 s",
+     "tbt": "0 ms",
+     "cls": "0.672"
+    }
    }
   }
  ],
@@ -268,12 +286,8 @@
  "plan": [],
  "articles": [],
  "errors": [
-  "speed https://mughal984.github.io/Umar-seo-ai/ mobile: PageSpeed error 429",
-  "speed https://mughal984.github.io/Umar-seo-ai/ desktop: PageSpeed error 429",
-  "competitors: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge",
-  "keywords-ai: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge",
-  "about: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge",
-  "faq: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge",
-  "plan: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge"
+  "competitors: Gemini fail: gemini-3.8-flash: no reply | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3",
+  "keywords-ai: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
+  "plan: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl"
  ]
 }
