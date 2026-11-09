@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mughal984.github.io/Umar-seo-ai/sitemap.xml
