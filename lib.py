@@ -151,7 +151,7 @@ def keywords(seeds, hl):
     return out
 
 def gemini(prompt, key, json_mode=False):
-    model = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     if json_mode: body["generationConfig"] = {"responseMimeType": "application/json"}
     for i in range(4):
