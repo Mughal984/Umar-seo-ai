@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T10:39:51+00:00",
+ "generated": "2026-11-10T12:38:32+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 65,
+   "ms": 317,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -50,14 +50,14 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 99,
+     "perf": 98,
      "seo": 100,
      "acc": 100,
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
      "tbt": "0 ms",
-     "cls": "0"
+     "cls": "0.091"
     },
     "desktop": {
      "perf": 77,
@@ -70,21 +70,193 @@
      "cls": "0.672"
     }
    }
+  },
+  {
+   "url": "https://uphotos.pages.dev/",
+   "status": 200,
+   "ms": 187,
+   "title": "Uphoto - Free Passport Size Photo Maker (All Countries)",
+   "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
+   "h1": 1,
+   "h2": 5,
+   "words": 422,
+   "imgs": 1,
+   "no_alt": 0,
+   "int": 35,
+   "ext": 7,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 100,
+   "issues": [
+    {
+     "l": "ok",
+     "t": "Koi bara masla nahi mila"
+    }
+   ],
+   "speed": {
+    "mobile": {
+     "perf": 94,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "280 ms",
+     "cls": "0.017"
+    }
+   }
+  },
+  {
+   "url": "https://speakanalytics.pages.dev/",
+   "status": 200,
+   "ms": 317,
+   "title": "SpeakMySite - Check your website by voice",
+   "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
+   "h1": 1,
+   "h2": 11,
+   "words": 767,
+   "imgs": 0,
+   "no_alt": 0,
+   "int": 13,
+   "ext": 1,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 100,
+   "issues": [
+    {
+     "l": "ok",
+     "t": "Koi bara masla nahi mila"
+    }
+   ],
+   "speed": {
+    "mobile": {
+     "perf": 100,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "20 ms",
+     "cls": "0"
+    }
+   }
+  },
+  {
+   "url": "https://poxstudio.netlify.app/",
+   "status": 200,
+   "ms": 553,
+   "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
+   "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
+   "h1": 1,
+   "h2": 8,
+   "words": 398,
+   "imgs": 1,
+   "no_alt": 1,
+   "int": 19,
+   "ext": 5,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": false,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 97,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "1 images par alt text nahi hai"
+    },
+    {
+     "l": "warn",
+     "t": "Schema (JSON-LD) nahi hai"
+    }
+   ],
+   "speed": {
+    "mobile": {
+     "perf": 100,
+     "seo": 100,
+     "acc": 93,
+     "bp": 100,
+     "fcp": "0.8 s",
+     "lcp": "0.8 s",
+     "tbt": "0 ms",
+     "cls": "0.01"
+    }
+   }
+  },
+  {
+   "url": "https://umarcalm.pages.dev/",
+   "status": 200,
+   "ms": 251,
+   "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
+   "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
+   "h1": 1,
+   "h2": 11,
+   "words": 947,
+   "imgs": 1,
+   "no_alt": 0,
+   "int": 9,
+   "ext": 2,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 100,
+   "issues": [
+    {
+     "l": "ok",
+     "t": "Koi bara masla nahi mila"
+    }
+   ],
+   "speed": {
+    "mobile": {
+     "perf": 100,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.8 s",
+     "lcp": "0.8 s",
+     "tbt": "10 ms",
+     "cls": "0.029"
+    }
+   }
   }
  ],
  "competitors": [
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 51,
+   "ms": 114,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
    "h2": 9,
-   "words": 2058,
+   "words": 2055,
    "imgs": 111,
    "no_alt": 42,
-   "int": 203,
+   "int": 202,
    "ext": 52,
    "canonical": true,
    "viewport": true,
@@ -106,7 +278,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 93,
+   "ms": 290,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -136,7 +308,7 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 63,
+   "ms": 117,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
@@ -170,7 +342,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 243,
+   "ms": 171,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -204,7 +376,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 780,
+   "ms": 699,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -331,12 +503,12 @@
   "others": [
    "seo checker",
    "seo checker free",
-   "seo checker website",
-   "seo checker google",
-   "seo checker extension",
-   "seo checker chrome extension",
    "seo checker online",
+   "seo checker extension",
+   "seo checker website",
    "seo checker youtube",
+   "seo checker google",
+   "seo checker chrome extension",
    "seo checker tool",
    "seo checker free online",
    "seo checker ai",
@@ -450,44 +622,71 @@
    "seo link checker extension chrome",
    "seo level checker"
   ],
-  "tags": [],
-  "titles": []
+  "tags": [
+   "SEO Checker Tool",
+   "SEO Audit",
+   "SEO Checker AI",
+   "Keyword Checker",
+   "SEO Analyzer Extension",
+   "SEO Content Checker",
+   "Website SEO Check",
+   "SEO Ranking Checker",
+   "SEO Domain Authority",
+   "SEO Health Checker",
+   "On Page SEO Checker",
+   "SEO Score Checker",
+   "SEO Readability Checker",
+   "SEO Metadata Checker",
+   "Free SEO Check"
+  ],
+  "titles": [
+   "Free AI SEO Checker Tool & Audit",
+   "Instant Website SEO Score Checker",
+   "Free AI SEO Checker for Websites",
+   "Free SEO Content Quality Checker",
+   "SEO Keyword & Rank Checker Tool"
+  ]
  },
  "plan": [
   {
    "priority": "high",
-   "title": "Content Ki Miqdaar Aur Quality Mein Izaafa Karein",
-   "detail": "Aap ki site par sirf 71 words hain jabke top competitors ke paas average 2287 words hain. Search engine rankings ke liye kam az kam 1000-1500 words ka detailed aur valuable content shamil karein."
+   "title": "Content Ki Lambai Aur Quality Barhaen",
+   "detail": "Aap ki site par sirf 71 words hain jabke competitors ke paas average 2287 words hain. Content ko kam az kam 300 se 1500+ words tak barhaen taake thin content issue khatam ho aur search engines ko relevant information mile."
   },
   {
    "priority": "high",
-   "title": "Sitemap.xml Aur Robots.txt Create Aur Submit Karein",
-   "detail": "Site par robots.txt aur sitemap.xml files maujood nahi hain. Inhe create karke Google Search Console mein submit karein taakay search engine bots aap ki site ko sahi tarah crawl aur index kar sakein."
+   "title": "Canonical Tag Implement Karein",
+   "detail": "Tumhari site par canonical tag nahi hai jabke tamam 5 competitors ke paas hai. Duplicate content aur indexing maslo se bachne ke liye har page ke `<head>` section mein sahi canonical link tag lagayein."
   },
   {
    "priority": "high",
-   "title": "Canonical Tags Implement Karein",
-   "detail": "Duplicate content ke masail se bachne ke liye har page ke <head> section mein canonical tag (<link rel=\"canonical\" href=\"...\">) lagayein. Tamam 5 competitors yeh tag istemal kar rahe hain."
+   "title": "Schema Markup (JSON-LD) Add Karein",
+   "detail": "Search engines ko aap ki site ka context samajhne mein madad dene ke liye Organization, WebSite, ya Article Schema (JSON-LD) add karein. Sabhi competitors ye feature use kar rahe hain."
   },
   {
    "priority": "high",
-   "title": "Schema (JSON-LD) Structured Data Add Karein",
-   "detail": "Search engines ko aap ke content ka context samjhane ke liye relevant Schema Markup (Organization, Article, ya Product JSON-LD) add karein. Tamam top competitors Schema use kar rahe hain."
+   "title": "sitemap.xml Aur robots.txt Files Setup Karein",
+   "detail": "Site ki crawling aur indexing behtar banane ke liye ek valid robots.txt file create karein aur sitemap.xml generate karke Google Search Console mein submit karein."
   },
   {
    "priority": "medium",
-   "title": "Relevant Images Add Karein Aur Alt Text Lagayein",
-   "detail": "Aap ki site par 0 images hain jabke competitors ke paas average 95 images hain. Content se mutaliq high-quality, compressed images add karein aur un mein descriptive Alt tags lazmi istemal karein."
+   "title": "Relevant Images Aur Alt Text Add Karein",
+   "detail": "Aap ki site par 0 images hain jabke competitors ke paas average 95 images hain. Content ke mutabiq high-quality compressed images shamil karein aur un mein SEO-friendly Alt tags lagayein."
   },
   {
    "priority": "medium",
-   "title": "Internal Linking Network Mazboot Karein",
-   "detail": "Abhi site par sirf 6 internal links hain. Competitors ke average 154 internal links hain. Apne mukh talif pages ko aapas mein relevant keywords ke zariye link karein taakay link equity distribute ho sake."
+   "title": "Internal Linking Network Behtar Karein",
+   "detail": "Aap ki site par sirf 6 internal links hain jabke competitors ke 154 links hain. Relevant pages aur articles ko aapas mein link karein taake page authority distributed ho sake."
   },
   {
    "priority": "low",
-   "title": "Title Tag Aur Meta Description Optimize Karein",
-   "detail": "Pages ke liye main target keywords ke sath attractive Title tag (50-60 characters) aur Meta Description (150-160 characters) likhein taakay search results mein Click-Through Rate (CTR) barh sake."
+   "title": "Title Tags Aur Meta Descriptions Optimize Karein",
+   "detail": "Targeted main keywords ke sath unique, compelling title tags (50-60 characters) aur meta descriptions (150-160 characters) likhen taake CTR improve ho."
+  },
+  {
+   "priority": "low",
+   "title": "Minor Layout Stability (CLS) Fix Karein",
+   "detail": "Mobile speed performance (98) bohot zabardast hai, lekin CLS score 0.091 hai. Isay 0.1 se neche hi rakhne ke liye images aur containers ki height/width fixed karein."
   }
  ],
  "articles": [
@@ -497,9 +696,14 @@
    "desc": "Learn how to use a free online SEO checker to audit your site, discover AI keyword ideas, compare competitors, and boost your search engine rankings.",
    "date": "2026-11-10",
    "keyword": "seo checker free online"
+  },
+  {
+   "slug": "seo-checker-ai",
+   "title": "How to Use AI for Quick Website SEO Audits",
+   "desc": "Learn how an SEO checker AI streamlines site audits, uncovers keyword opportunities, and analyzes competitors to boost your website's search performance.",
+   "date": "2026-11-10",
+   "keyword": "seo checker ai"
   }
  ],
- "errors": [
-  "keywords-ai: Gemini fail (gemini-3.8-flash:no reply,gemini-3.7-flash:503,gemini-flash-latest:no reply). Google ne kaha: The read operation timed out"
- ]
+ "errors": []
 }
