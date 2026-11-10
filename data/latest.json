@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T21:21:39+00:00",
+ "generated": "2026-11-10T07:20:19+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 103,
+   "ms": 160,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -50,14 +50,14 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 99,
+     "perf": 98,
      "seo": 100,
      "acc": 100,
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
      "tbt": "0 ms",
-     "cls": "0"
+     "cls": "0.091"
     },
     "desktop": {
      "perf": 77,
@@ -72,8 +72,178 @@
    }
   }
  ],
- "competitors": [],
- "gaps": [],
+ "competitors": [
+  {
+   "url": "https://ahrefs.com",
+   "status": 200,
+   "ms": 77,
+   "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
+   "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
+   "h1": 1,
+   "h2": 9,
+   "words": 2058,
+   "imgs": 111,
+   "no_alt": 42,
+   "int": 203,
+   "ext": 52,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 92,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "42 images par alt text nahi hai"
+    }
+   ]
+  },
+  {
+   "url": "https://www.semrush.com",
+   "status": 200,
+   "ms": 410,
+   "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
+   "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
+   "h1": 1,
+   "h2": 9,
+   "words": 1358,
+   "imgs": 55,
+   "no_alt": 21,
+   "int": 127,
+   "ext": 21,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 92,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "21 images par alt text nahi hai"
+    }
+   ]
+  },
+  {
+   "url": "https://moz.com",
+   "status": 200,
+   "ms": 105,
+   "title": "Moz - SEO Software for Smarter Marketing",
+   "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
+   "h1": 1,
+   "h2": 16,
+   "words": 2630,
+   "imgs": 49,
+   "no_alt": 15,
+   "int": 181,
+   "ext": 16,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 88,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "Meta description 187 characters ki hai (behtar: 70 se 160)"
+    },
+    {
+     "l": "warn",
+     "t": "15 images par alt text nahi hai"
+    }
+   ]
+  },
+  {
+   "url": "https://surfer.ai/",
+   "status": 200,
+   "ms": 207,
+   "title": "Surfer - AI visibility platform to get cited in AI search",
+   "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
+   "h1": 1,
+   "h2": 7,
+   "words": 3507,
+   "imgs": 81,
+   "no_alt": 63,
+   "int": 110,
+   "ext": 54,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": true,
+   "score": 88,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "Meta description 181 characters ki hai (behtar: 70 se 160)"
+    },
+    {
+     "l": "warn",
+     "t": "63 images par alt text nahi hai"
+    }
+   ]
+  },
+  {
+   "url": "https://seranking.com",
+   "status": 200,
+   "ms": 975,
+   "title": "SE Ranking: SEO software with data you can trust",
+   "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
+   "h1": 1,
+   "h2": 10,
+   "words": 1880,
+   "imgs": 183,
+   "no_alt": 125,
+   "int": 149,
+   "ext": 16,
+   "canonical": true,
+   "viewport": true,
+   "lang": true,
+   "og": true,
+   "schema": true,
+   "noindex": false,
+   "https": true,
+   "robots": true,
+   "sitemap": false,
+   "score": 89,
+   "issues": [
+    {
+     "l": "warn",
+     "t": "125 images par alt text nahi hai"
+    },
+    {
+     "l": "warn",
+     "t": "sitemap.xml nahi mili"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Muqable ki sites mein average 2286 words hain, tumhari site mein 71",
+  "Muqable ki sites mein average 95 images hain, tumhari site mein 0",
+  "Muqable ki sites mein average 154 internal links hain, tumhari site mein 6",
+  "5/5 muqable sites mein Schema (JSON-LD) hai, tumhari site mein nahi",
+  "4/5 muqable sites mein sitemap.xml hai, tumhari site mein nahi",
+  "5/5 muqable sites mein canonical tag hai, tumhari site mein nahi"
+ ],
  "keywords": {
   "count": 1065,
   "questions": [
@@ -161,9 +331,9 @@
   "others": [
    "seo checker",
    "seo checker free",
-   "seo checker website",
-   "seo checker google",
    "seo checker extension",
+   "seo checker google",
+   "seo checker website",
    "seo checker chrome extension",
    "seo checker online",
    "seo checker youtube",
@@ -280,14 +450,38 @@
    "seo link checker extension chrome",
    "seo level checker"
   ],
-  "tags": [],
-  "titles": []
+  "tags": [
+   "seo checker free",
+   "seo checker online",
+   "seo checker tool",
+   "seo check website",
+   "seo check audit",
+   "seo keyword checker",
+   "seo content checker",
+   "seo checker extension",
+   "seo ranking checker",
+   "seo health checker",
+   "seo checker chrome",
+   "seo difficulty checker",
+   "seo checker ai",
+   "seo readability checker",
+   "seo performance checker"
+  ],
+  "titles": [
+   "Free SEO Checker Tool - Audit Your Website Online",
+   "AI SEO Checker: Free Website SEO Audit & Analysis",
+   "SEO Content Checker Free - Optimize Your Articles",
+   "Free SEO Ranking Checker & Website Audit Tool",
+   "Instant SEO Checker Online: Analyze Your Site Free"
+  ]
  },
  "plan": [],
  "articles": [],
  "errors": [
-  "competitors: Gemini fail: gemini-3.8-flash: no reply | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3",
-  "keywords-ai: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
-  "plan: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 503 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl"
+  "article: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 503 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
+  "article: Gemini fail: gemini-3.8-flash: no reply | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3",
+  "article: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
+  "article: Gemini abhi jawab nahi de raha, baqi AI kaam agli run mein honge",
+  "plan: Gemini abhi jawab nahi de raha, baqi AI kaam agli run mein honge"
  ]
 }

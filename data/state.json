@@ -1,6 +1,13 @@
 {
  "articles": [],
- "competitors": [],
+ "competitors": [
+  "https://ahrefs.com",
+  "https://www.semrush.com",
+  "https://moz.com",
+  "https://surferseo.com",
+  "https://seranking.com",
+  "https://www.spyfu.com"
+ ],
  "about": "2026-11-09",
  "faq": "2026-11-09"
 }
