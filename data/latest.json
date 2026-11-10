@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T08:08:06+00:00",
+ "generated": "2026-11-10T10:39:51+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 143,
+   "ms": 65,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -50,14 +50,14 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 98,
+     "perf": 99,
      "seo": 100,
      "acc": 100,
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
      "tbt": "0 ms",
-     "cls": "0.091"
+     "cls": "0"
     },
     "desktop": {
      "perf": 77,
@@ -76,7 +76,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 159,
+   "ms": 51,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -106,7 +106,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 418,
+   "ms": 93,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -136,15 +136,15 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 130,
+   "ms": 63,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
    "h2": 16,
-   "words": 2630,
+   "words": 2635,
    "imgs": 49,
    "no_alt": 15,
-   "int": 181,
+   "int": 183,
    "ext": 16,
    "canonical": true,
    "viewport": true,
@@ -170,7 +170,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 242,
+   "ms": 243,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -204,7 +204,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 962,
+   "ms": 780,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -237,7 +237,7 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2286 words hain, tumhari site mein 71",
+  "Muqable ki sites mein average 2287 words hain, tumhari site mein 71",
   "Muqable ki sites mein average 95 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 154 internal links hain, tumhari site mein 6",
   "5/5 muqable sites mein Schema (JSON-LD) hai, tumhari site mein nahi",
@@ -450,32 +450,46 @@
    "seo link checker extension chrome",
    "seo level checker"
   ],
-  "tags": [
-   "SEO Checker",
-   "Free SEO Tools",
-   "Website SEO Audit",
-   "AI SEO Checker",
-   "SEO Chrome Extension",
-   "SEO Keyword Checker",
-   "SEO Content Checker",
-   "On-Page SEO",
-   "Domain Authority Check",
-   "SEO Traffic Checker",
-   "SEO Health Check",
-   "Meta Tags Check",
-   "SEO Ranking Checker",
-   "Backlink SEO Check",
-   "Website SEO Score"
-  ],
-  "titles": [
-   "Free AI SEO Checker: Audit Your Website Online",
-   "Best Free SEO Content Checker & Analyzer Tool",
-   "Instant SEO Keyword Checker for Any Website",
-   "Run a Free SEO Audit & Check Website Health",
-   "Top SEO Checker Chrome Extensions to Use"
-  ]
+  "tags": [],
+  "titles": []
  },
- "plan": [],
+ "plan": [
+  {
+   "priority": "high",
+   "title": "Content Ki Miqdaar Aur Quality Mein Izaafa Karein",
+   "detail": "Aap ki site par sirf 71 words hain jabke top competitors ke paas average 2287 words hain. Search engine rankings ke liye kam az kam 1000-1500 words ka detailed aur valuable content shamil karein."
+  },
+  {
+   "priority": "high",
+   "title": "Sitemap.xml Aur Robots.txt Create Aur Submit Karein",
+   "detail": "Site par robots.txt aur sitemap.xml files maujood nahi hain. Inhe create karke Google Search Console mein submit karein taakay search engine bots aap ki site ko sahi tarah crawl aur index kar sakein."
+  },
+  {
+   "priority": "high",
+   "title": "Canonical Tags Implement Karein",
+   "detail": "Duplicate content ke masail se bachne ke liye har page ke <head> section mein canonical tag (<link rel=\"canonical\" href=\"...\">) lagayein. Tamam 5 competitors yeh tag istemal kar rahe hain."
+  },
+  {
+   "priority": "high",
+   "title": "Schema (JSON-LD) Structured Data Add Karein",
+   "detail": "Search engines ko aap ke content ka context samjhane ke liye relevant Schema Markup (Organization, Article, ya Product JSON-LD) add karein. Tamam top competitors Schema use kar rahe hain."
+  },
+  {
+   "priority": "medium",
+   "title": "Relevant Images Add Karein Aur Alt Text Lagayein",
+   "detail": "Aap ki site par 0 images hain jabke competitors ke paas average 95 images hain. Content se mutaliq high-quality, compressed images add karein aur un mein descriptive Alt tags lazmi istemal karein."
+  },
+  {
+   "priority": "medium",
+   "title": "Internal Linking Network Mazboot Karein",
+   "detail": "Abhi site par sirf 6 internal links hain. Competitors ke average 154 internal links hain. Apne mukh talif pages ko aapas mein relevant keywords ke zariye link karein taakay link equity distribute ho sake."
+  },
+  {
+   "priority": "low",
+   "title": "Title Tag Aur Meta Description Optimize Karein",
+   "detail": "Pages ke liye main target keywords ke sath attractive Title tag (50-60 characters) aur Meta Description (150-160 characters) likhein taakay search results mein Click-Through Rate (CTR) barh sake."
+  }
+ ],
  "articles": [
   {
    "slug": "seo-checker-free-online",
@@ -486,6 +500,6 @@
   }
  ],
  "errors": [
-  "plan: Gemini fail (gemini-3.8-flash:no reply,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: The read operation timed out"
+  "keywords-ai: Gemini fail (gemini-3.8-flash:no reply,gemini-3.7-flash:503,gemini-flash-latest:no reply). Google ne kaha: The read operation timed out"
  ]
 }
