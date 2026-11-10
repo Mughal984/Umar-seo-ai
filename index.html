@@ -1,11 +1,26 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>UMA SEO AI - Free automated SEO agent</title>
-<meta name="description" content="A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.">
-<meta property="og:title" content="UMA SEO AI - Free automated SEO agent"><meta property="og:description" content="Daily SEO audit, speed check, competitor comparison, keywords and AI articles.">
-<link rel="stylesheet" href="style.css"></head><body>
+<meta name="description" content="A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.">
+<link rel="canonical" href="https://mughal984.github.io/Umar-seo-ai/">
+<meta property="og:title" content="UMA SEO AI - Free automated SEO agent"><meta property="og:description" content="Daily SEO audit, speed check, competitor comparison, keywords and AI articles."><meta property="og:type" content="website"><meta property="og:url" content="https://mughal984.github.io/Umar-seo-ai/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"UMA SEO AI","url":"https://mughal984.github.io/Umar-seo-ai/","description":"A free SEO agent that audits websites every day, measures speed with Google PageSpeed, compares competitors, finds keyword ideas and writes SEO articles.","applicationCategory":"BusinessApplication","operatingSystem":"Any (web)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<link rel="stylesheet" href="style.css">
+<style>#app{min-height:1800px}details.info{margin:12px 0}details.info summary{cursor:pointer;font-weight:600;color:var(--acc)}</style></head><body>
 <header><a class="brand" href="index.html">UMA SEO AI</a><nav><a href="index.html">Dashboard</a><a href="blog/index.html">Blog</a><a href="about.html">About</a><a href="faq.html">FAQ</a></nav></header>
 <main><h1>SEO agent dashboard</h1>
 <p>This agent runs by itself every day. It audits the site, measures speed with Google PageSpeed, compares the site with competitors, collects keyword ideas, writes SEO articles and plans fixes. Everything below is real data from the last run.</p>
+<details class="info"><summary>How this agent works</summary>
+<h2>What it checks every day</h2>
+<p>The agent opens each website it watches and reads the page the way a search engine does. It looks at the title tag, the meta description, the headings, the images and their alt text, the internal and external links, the canonical tag, the schema markup, the robots.txt file and the sitemap. From these checks it builds a score out of 100 and a plain list of problems to fix.</p>
+<h2>Where the data comes from</h2>
+<p>Speed numbers come from Google PageSpeed Insights, tested for both mobile and desktop. Keyword ideas come from Google Autocomplete, which shows what people really type into the search box. Articles, tags, the About page, the FAQ and the action plan are written with Gemini AI, using only the real data the agent has just collected.</p>
+<h2>Competitor comparison</h2>
+<p>The agent finds well known competitor websites for the topic and compares their on-page SEO with ours: word count, headings, images, internal links, schema and sitemap. This shows where the page is thin compared with the market leaders.</p>
+<h2>Self healing</h2>
+<p>A separate monitor checks the site every hour. If the site breaks, it brings back the last working version and opens an issue on GitHub, so the problem is visible and fixed quickly. When the site is healthy again the issue closes by itself.</p>
+<h2>What it does not do</h2>
+<p>Competitor search volume and backlink data are paid data, so this free agent does not show them. AI written articles can contain mistakes, so they should be read before being trusted.</p>
+</details>
 <div id="app"><p class="m">Loading...</p></div></main>
 <footer>Competitor search volume and backlinks need paid data, so they are not shown.</footer>
 <script>
@@ -18,7 +33,7 @@ function chart(H){const P=H.filter(h=>h.score!=null);if(P.length<2)return '<p cl
  return '<svg viewBox="0 0 '+w+' '+h+'"><polyline fill="none" stroke="currentColor" stroke-width="2" points="'+pt+'"/></svg><p class="m">SEO score, '+P[0].d+' to '+P[P.length-1].d+'</p>'}
 (async()=>{
  const L=await J('data/latest.json'),H=await J('data/history.json')||[],o=$('#app');
- if(!L){o.innerHTML='<div class="card"><p>The agent has not run yet. On GitHub open Actions, choose "UMA SEO AI Agent", then Run workflow.</p></div>';return}
+ if(!L){o.style.minHeight='0';o.innerHTML='<div class="card"><p>The agent has not run yet. On GitHub open Actions, choose "UMA SEO AI Agent", then Run workflow.</p></div>';return}
  const me=L.sites[0]||{},sp=(me.speed||{}).mobile||{},dk=(me.speed||{}).desktop||{};let h='';
  h+='<div class="card"><h2>Overview</h2><p class="m">Last run: '+esc(L.generated)+'</p>';
  if(me.error)h+='<p class="err">Site check failed: '+esc(me.error)+'</p>';
@@ -36,5 +51,5 @@ function chart(H){const P=H.filter(h=>h.score!=null);if(P.length<2)return '<p cl
  if(L.sites.length>1)h+='<div class="card"><h2>Other sites</h2><table><tr><th>Site</th><th>Score</th><th>Mobile speed</th></tr>'+L.sites.slice(1).map(s=>'<tr><td>'+esc(s.url)+'</td><td>'+(s.error?esc(s.error):s.score)+'</td><td>'+yn(((s.speed||{}).mobile||{}).perf)+'</td></tr>').join('')+'</table></div>';
  if(L.articles.length)h+='<div class="card"><h2>Latest articles</h2><ul class="posts">'+L.articles.slice(0,5).map(a=>'<li><a href="blog/'+esc(a.slug)+'.html">'+esc(a.title)+'</a><br><span class="m">'+esc(a.date)+'</span></li>').join('')+'</ul></div>';
  if(L.errors.length)h+='<div class="card"><h2>Agent log</h2><ul>'+L.errors.map(e=>'<li class="err">'+esc(e)+'</li>').join('')+'</ul></div>';
- o.innerHTML=h})();
+ o.innerHTML=h;o.style.minHeight='0'})();
 </script></body></html>
