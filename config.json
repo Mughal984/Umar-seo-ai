@@ -9,7 +9,7 @@
     "website seo",
     "seo tips"
   ],
-  "sites_to_audit": [],
+  "sites_to_audit": ["https://uphotos.pages.dev/", "https://speakanalytics.pages.dev/", "https://poxstudio.netlify.app/", "https://umarcalm.pages.dev/"],
   "competitors": [],
   "content_language": "en",
   "report_language": "rur",
