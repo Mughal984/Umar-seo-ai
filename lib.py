@@ -73,13 +73,14 @@ def audit(url):
         m = re.search(rx, html, re.I | re.S)
         return re.sub(r"\s+", " ", m.group(1)).strip() if m else ""
     has = lambda rx: bool(re.search(rx, html, re.I))
-    cnt = lambda rx: len(re.findall(rx, html, re.I))
+    core = re.sub(r"<(script|style|noscript)[\s\S]*?</\1>", " ", html, flags=re.I)
+    cnt = lambda rx: len(re.findall(rx, core, re.I))
     title = g(r"<title[^>]*>(.*?)</title>")
     meta = g(r"<meta[^>]+name=[\"']description[\"'][^>]*content=[\"']([^\"']*)") or g(r"<meta[^>]+content=[\"']([^\"']*)[\"'][^>]*name=[\"']description[\"']")
-    imgs = re.findall(r"<img\b[^>]*>", html, re.I)
+    imgs = re.findall(r"<img\b[^>]*>", core, re.I)
     no_alt = sum(1 for i in imgs if not re.search(r"\balt=[\"'][^\"']+[\"']", i, re.I))
     intl = ext = 0
-    for m in re.finditer(r"<a\b[^>]*href=[\"']([^\"'#][^\"']*)[\"']", html, re.I):
+    for m in re.finditer(r"<a\b[^>]*href=[\"']([^\"'#][^\"']*)[\"']", core, re.I):
         try: l = urllib.parse.urlparse(urllib.parse.urljoin(fin, m.group(1)))
         except ValueError: continue
         if l.scheme not in ("http", "https"): continue
@@ -88,12 +89,14 @@ def audit(url):
     text = re.sub(r"<(script|style|noscript)[\s\S]*?</\1>", " ", html, flags=re.I)
     text = re.sub(r"&nbsp;|\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
     origin = "%s://%s" % (u.scheme, u.netloc)
+    base = u.path[:u.path.rfind("/") + 1] or "/"
     a = dict(url=fin, status=st, ms=ms, title=title, meta=meta, h1=cnt(r"<h1[\s>]"), h2=cnt(r"<h2[\s>]"),
         words=len(text.split()) if text else 0, imgs=len(imgs), no_alt=no_alt, int=intl, ext=ext,
         canonical=has(r"<link[^>]+rel=[\"']canonical[\"']"), viewport=has(r"<meta[^>]+name=[\"']viewport[\"']"),
         lang=has(r"<html[^>]+lang="), og=has(r"property=[\"']og:title[\"']"), schema=has(r"application/ld\+json"),
         noindex=has(r"<meta[^>]+name=[\"']robots[\"'][^>]*noindex"), https=u.scheme == "https",
-        robots=exists(origin, "/robots.txt"), sitemap=exists(origin, "/sitemap.xml"))
+        robots=exists(origin, "/robots.txt") or (base != "/" and exists(origin, base + "robots.txt")),
+        sitemap=exists(origin, "/sitemap.xml") or (base != "/" and exists(origin, base + "sitemap.xml")))
     I = []; s = [100]
     def pen(n, lv, t): s[0] -= n; I.append({"l": lv, "t": t})
     if st >= 400: pen(40, "bad", "Page ka status %d hai" % st)
@@ -189,6 +192,7 @@ def gemini(prompt, key, json_mode=False):
             codes.append("%s:%s" % (m, "no reply" if st == 0 else st))
             if not first: first = _gerr(txt)
             if st == 429: wait = max(wait, _gdelay(txt))
+            elif st in (500, 503): wait = max(wait, 20)
         if wait and deadline - time.time() > wait + 20: time.sleep(wait)
         elif not wait: break
     GFAILS[0] += 1
