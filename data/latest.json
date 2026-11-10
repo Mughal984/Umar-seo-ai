@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T07:20:19+00:00",
+ "generated": "2026-11-10T07:35:59+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 160,
+   "ms": 145,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -50,14 +50,14 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 98,
+     "perf": 99,
      "seo": 100,
      "acc": 100,
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
      "tbt": "0 ms",
-     "cls": "0.091"
+     "cls": "0"
     },
     "desktop": {
      "perf": 77,
@@ -106,7 +106,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 410,
+   "ms": 314,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -136,7 +136,7 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 105,
+   "ms": 98,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
@@ -170,7 +170,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 207,
+   "ms": 224,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -204,7 +204,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 975,
+   "ms": 938,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -331,9 +331,9 @@
   "others": [
    "seo checker",
    "seo checker free",
-   "seo checker extension",
-   "seo checker google",
    "seo checker website",
+   "seo checker google",
+   "seo checker extension",
    "seo checker chrome extension",
    "seo checker online",
    "seo checker youtube",
@@ -450,38 +450,13 @@
    "seo link checker extension chrome",
    "seo level checker"
   ],
-  "tags": [
-   "seo checker free",
-   "seo checker online",
-   "seo checker tool",
-   "seo check website",
-   "seo check audit",
-   "seo keyword checker",
-   "seo content checker",
-   "seo checker extension",
-   "seo ranking checker",
-   "seo health checker",
-   "seo checker chrome",
-   "seo difficulty checker",
-   "seo checker ai",
-   "seo readability checker",
-   "seo performance checker"
-  ],
-  "titles": [
-   "Free SEO Checker Tool - Audit Your Website Online",
-   "AI SEO Checker: Free Website SEO Audit & Analysis",
-   "SEO Content Checker Free - Optimize Your Articles",
-   "Free SEO Ranking Checker & Website Audit Tool",
-   "Instant SEO Checker Online: Analyze Your Site Free"
-  ]
+  "tags": [],
+  "titles": []
  },
  "plan": [],
  "articles": [],
  "errors": [
-  "article: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 503 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
-  "article: Gemini fail: gemini-3.8-flash: no reply | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3",
-  "article: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
-  "article: Gemini abhi jawab nahi de raha, baqi AI kaam agli run mein honge",
-  "plan: Gemini abhi jawab nahi de raha, baqi AI kaam agli run mein honge"
+  "keywords-ai: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl",
+  "plan: Gemini fail: gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-flash: 429 | gemini-3.8-flash: 429 | gemini-3.7-flash: 429 | gemini-flash-latest: 429 | gemini-3.5-fl"
  ]
 }
