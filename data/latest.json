@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T10:23:27+00:00",
+ "generated": "2026-11-14T09:42:50+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 169,
+   "ms": 119,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -58,7 +58,7 @@
   {
    "url": "https://uphotos.pages.dev/",
    "status": 200,
-   "ms": 248,
+   "ms": 101,
    "title": "Uphoto - Free Passport Size Photo Maker (All Countries)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
@@ -86,29 +86,29 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 97,
+     "perf": 100,
      "seo": 100,
      "acc": 100,
      "bp": 100,
-     "fcp": "1.0 s",
-     "lcp": "1.0 s",
-     "tbt": "160 ms",
-     "cls": "0.017"
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "0 ms",
+     "cls": "0.018"
     }
    }
   },
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 265,
+   "ms": 263,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
    "h2": 11,
-   "words": 767,
+   "words": 769,
    "imgs": 0,
    "no_alt": 0,
-   "int": 13,
+   "int": 14,
    "ext": 1,
    "canonical": true,
    "viewport": true,
@@ -128,13 +128,13 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 94,
+     "perf": 99,
      "seo": 100,
      "acc": 100,
      "bp": 100,
-     "fcp": "2.4 s",
-     "lcp": "2.4 s",
-     "tbt": "50 ms",
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "100 ms",
      "cls": "0"
     }
    }
@@ -142,15 +142,15 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 437,
+   "ms": 344,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
    "h2": 8,
-   "words": 398,
+   "words": 448,
    "imgs": 0,
    "no_alt": 0,
-   "int": 19,
+   "int": 24,
    "ext": 5,
    "canonical": true,
    "viewport": true,
@@ -174,17 +174,17 @@
      "seo": 100,
      "acc": 93,
      "bp": 100,
-     "fcp": "0.8 s",
-     "lcp": "1.5 s",
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
      "tbt": "0 ms",
-     "cls": "0.009"
+     "cls": "0.01"
     }
    }
   },
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 246,
+   "ms": 103,
    "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
@@ -218,7 +218,7 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "60 ms",
+     "tbt": "10 ms",
      "cls": "0.029"
     }
    }
@@ -228,12 +228,12 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 145,
+   "ms": 41,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
    "h2": 9,
-   "words": 2055,
+   "words": 2058,
    "imgs": 109,
    "no_alt": 40,
    "int": 202,
@@ -258,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 332,
+   "ms": 486,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -288,7 +288,7 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 113,
+   "ms": 81,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
@@ -322,15 +322,15 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 296,
+   "ms": 137,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
    "h2": 7,
-   "words": 3511,
+   "words": 3498,
    "imgs": 75,
    "no_alt": 61,
-   "int": 109,
+   "int": 108,
    "ext": 55,
    "canonical": true,
    "viewport": true,
@@ -356,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 875,
+   "ms": 1769,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -389,7 +389,7 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2286 words hain, tumhari site mein 331",
+  "Muqable ki sites mein average 2284 words hain, tumhari site mein 331",
   "Muqable ki sites mein average 10 H2 headings hain, tumhari site mein 5",
   "Muqable ki sites mein average 76 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 153 internal links hain, tumhari site mein 5"
@@ -603,7 +603,38 @@
   "tags": [],
   "titles": []
  },
- "plan": [],
+ "plan": [
+  {
+   "priority": "high",
+   "title": "Content ki length aur depth ko barhain",
+   "detail": "Muqabla karne wali sites par average 2284 alfaz hain jabke aap ke paas sirf 331 hain. Relevant keywords aur detail information ke sath content ko kam se kam 1500-2000 words tak barhain taake search engine aap ke page ko authoritative samjhe."
+  },
+  {
+   "priority": "high",
+   "title": "High-quality images aur Alt Text shamil karein",
+   "detail": "Competitor sites par average 76 images hain jabke aap ki site par ek bhi image nahi hai. Topic se related images, diagrams aur infographics add karein aur un mein proper descriptive Alt text zaroor istemal karein."
+  },
+  {
+   "priority": "high",
+   "title": "Internal linking network ko mazboot banayein",
+   "detail": "Aap ki site par sirf 5 internal links hain jabke competitors ke paas 153 hain. Apne doosre relevant pages, categories aur blog posts ko aapas mein link karein taake link juice flow ho aur user retention barhe."
+  },
+  {
+   "priority": "medium",
+   "title": "Content structure aur H2 Headings ko optimize karein",
+   "detail": "Competitors average 10 H2 headings use kar rahe hain jabke aap ke paas 5 hain. Apne content ko mazeed sub-topics mein takseem karein aur H2/H3 tags mein LSI (Latent Semantic Indexing) keywords shamil karein."
+  },
+  {
+   "priority": "medium",
+   "title": "Title Tag aur Meta Description ko compelling banayein",
+   "detail": "Naye content aur headings ke mutabiq catchy Click-Through Rate (CTR) oriented Meta Title aur Description likhein jin mein primary keywords aur Call to Action (CTA) shamil ho."
+  },
+  {
+   "priority": "low",
+   "title": "Mobile Speed aur Core Web Vitals ko maintain rakhein",
+   "detail": "Aap ka speed score (99) aur LCP (0.8s) behtareen hai. Nayi images aur content add karte waqt Next-Gen formats (WebP) aur lazy loading ka istemal karein taake performance drop na ho."
+  }
+ ],
  "articles": [
   {
    "slug": "seo-content-checker-online-free",
@@ -642,7 +673,6 @@
   }
  ],
  "errors": [
-  "keywords-ai: Gemini fail (gemini-3.8-flash:no reply,gemini-3.7-flash:no reply,gemini-flash-latest:no reply). Google ne kaha: The read operation timed out",
-  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:no reply,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usuall"
+  "keywords-ai: Gemini fail (gemini-3.8-flash:no reply,gemini-3.7-flash:no reply,gemini-flash-latest:no reply). Google ne kaha: The read operation timed out"
  ]
 }
