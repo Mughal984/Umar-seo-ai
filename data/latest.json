@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T09:42:50+00:00",
+ "generated": "2026-11-15T10:09:20+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 119,
+   "ms": 142,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -34,7 +34,7 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 99,
+     "perf": 100,
      "seo": 100,
      "acc": 100,
      "bp": 100,
@@ -58,7 +58,7 @@
   {
    "url": "https://uphotos.pages.dev/",
    "status": 200,
-   "ms": 101,
+   "ms": 93,
    "title": "Uphoto - Free Passport Size Photo Maker (All Countries)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
@@ -86,21 +86,21 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 100,
+     "perf": 83,
      "seo": 100,
      "acc": 100,
      "bp": 100,
-     "fcp": "0.9 s",
-     "lcp": "0.9 s",
-     "tbt": "0 ms",
-     "cls": "0.018"
+     "fcp": "3.1 s",
+     "lcp": "3.1 s",
+     "tbt": "40 ms",
+     "cls": "0.017"
     }
    }
   },
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 263,
+   "ms": 164,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -128,13 +128,13 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 99,
+     "perf": 100,
      "seo": 100,
      "acc": 100,
      "bp": 100,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "100 ms",
+     "tbt": "30 ms",
      "cls": "0"
     }
    }
@@ -142,7 +142,7 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 344,
+   "ms": 311,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -174,8 +174,8 @@
      "seo": 100,
      "acc": 93,
      "bp": 100,
-     "fcp": "0.9 s",
-     "lcp": "0.9 s",
+     "fcp": "0.8 s",
+     "lcp": "0.8 s",
      "tbt": "0 ms",
      "cls": "0.01"
     }
@@ -184,15 +184,15 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 103,
+   "ms": 98,
    "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
-   "h2": 11,
-   "words": 947,
+   "h2": 12,
+   "words": 1200,
    "imgs": 1,
    "no_alt": 0,
-   "int": 9,
+   "int": 37,
    "ext": 2,
    "canonical": true,
    "viewport": true,
@@ -218,7 +218,7 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "10 ms",
+     "tbt": "0 ms",
      "cls": "0.029"
     }
    }
@@ -228,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 41,
+   "ms": 37,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -258,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 486,
+   "ms": 115,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -288,15 +288,15 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 81,
+   "ms": 66,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
    "h2": 16,
-   "words": 2630,
+   "words": 2635,
    "imgs": 49,
    "no_alt": 15,
-   "int": 181,
+   "int": 183,
    "ext": 16,
    "canonical": true,
    "viewport": true,
@@ -322,7 +322,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 137,
+   "ms": 174,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -356,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 1769,
+   "ms": 733,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -389,7 +389,7 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2284 words hain, tumhari site mein 331",
+  "Muqable ki sites mein average 2285 words hain, tumhari site mein 331",
   "Muqable ki sites mein average 10 H2 headings hain, tumhari site mein 5",
   "Muqable ki sites mein average 76 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 153 internal links hain, tumhari site mein 5"
@@ -606,33 +606,33 @@
  "plan": [
   {
    "priority": "high",
-   "title": "Content ki length aur depth ko barhain",
-   "detail": "Muqabla karne wali sites par average 2284 alfaz hain jabke aap ke paas sirf 331 hain. Relevant keywords aur detail information ke sath content ko kam se kam 1500-2000 words tak barhain taake search engine aap ke page ko authoritative samjhe."
+   "title": "Content Ki Lambai Aur Tafseel Mein Izafa Karein",
+   "detail": "Aapki site par sirf 331 alfaz hain jabke competitors ke average 2285 alfaz hain. Search intent ko cover karne ke liye topic par gehri research karein aur content ko barha kar kam az kam 1800 se 2200 alfaz tak le jayein."
   },
   {
    "priority": "high",
-   "title": "High-quality images aur Alt Text shamil karein",
-   "detail": "Competitor sites par average 76 images hain jabke aap ki site par ek bhi image nahi hai. Topic se related images, diagrams aur infographics add karein aur un mein proper descriptive Alt text zaroor istemal karein."
+   "title": "Relevant Images Aur Visual Content Shamil Karein",
+   "detail": "Aapke page par koi image nahi hai jabke competitors 76 images use kar rahe hain. Har main section ke sath optimized WebP images, screenshots, ya infographics lagayein aur har image par descriptive ALT text lazmi likhein."
   },
   {
    "priority": "high",
-   "title": "Internal linking network ko mazboot banayein",
-   "detail": "Aap ki site par sirf 5 internal links hain jabke competitors ke paas 153 hain. Apne doosre relevant pages, categories aur blog posts ko aapas mein link karein taake link juice flow ho aur user retention barhe."
+   "title": "Internal Linking Network Mazboot Karein",
+   "detail": "Muqable ki sites par 153 internal links hain aur aapke paas sirf 5. Apne baqi related blog posts aur service pages ko contextually link karein taake crawlability behtar ho aur page authority transfer ho sake."
   },
   {
    "priority": "medium",
-   "title": "Content structure aur H2 Headings ko optimize karein",
-   "detail": "Competitors average 10 H2 headings use kar rahe hain jabke aap ke paas 5 hain. Apne content ko mazeed sub-topics mein takseem karein aur H2/H3 tags mein LSI (Latent Semantic Indexing) keywords shamil karein."
+   "title": "Headings (H2 Aur H3) Ka Istemal Barhayein",
+   "detail": "Competitors average 10 H2 headings use kar rahe hain jabke aapke paas 5 hain. Content ko mazeed logically divide karein, new sub-sections banayein aur LSI keywords ko nayi H2/H3 headings mein shamil karein."
   },
   {
    "priority": "medium",
-   "title": "Title Tag aur Meta Description ko compelling banayein",
-   "detail": "Naye content aur headings ke mutabiq catchy Click-Through Rate (CTR) oriented Meta Title aur Description likhein jin mein primary keywords aur Call to Action (CTA) shamil ho."
+   "title": "FAQ Section Aur FAQPage Schema Add Karein",
+   "detail": "Page ke aakhir mein 4-5 ahem sawalat (FAQs) H2 headings ke sath shamil karein aur un par structured data (FAQ schema) lagayein taake search results mein rich results aur snippet visibility mil sake."
   },
   {
    "priority": "low",
-   "title": "Mobile Speed aur Core Web Vitals ko maintain rakhein",
-   "detail": "Aap ka speed score (99) aur LCP (0.8s) behtareen hai. Nayi images aur content add karte waqt Next-Gen formats (WebP) aur lazy loading ka istemal karein taake performance drop na ho."
+   "title": "Title Aur Meta Description Ko CTR Ke Liye Optimize Karein",
+   "detail": "Aapki speed aur technical SEO 100/100 hai. Ab organic clicks barhane ke liye title tag mein current saal aur clear benefit shamil karein, aur 155 characters ki persuasive meta description likhein."
   }
  ],
  "articles": [
