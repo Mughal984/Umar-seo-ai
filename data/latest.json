@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T10:33:06+00:00",
+ "generated": "2026-11-23T11:35:50+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
@@ -34,7 +34,7 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 100,
+     "perf": 99,
      "seo": 100,
      "acc": 100,
      "bp": 100,
@@ -58,7 +58,7 @@
   {
    "url": "https://uphotos.pages.dev/",
    "status": 200,
-   "ms": 317,
+   "ms": 183,
    "title": "Uphoto: Free Passport Photo Maker Online (Any Country)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
@@ -86,13 +86,13 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 99,
+     "perf": 100,
      "seo": 100,
      "acc": 100,
-     "bp": 100,
+     "bp": 92,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "30 ms",
+     "tbt": "10 ms",
      "cls": "0.017"
     }
    }
@@ -100,7 +100,7 @@
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 190,
+   "ms": 249,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -134,7 +134,7 @@
      "bp": 100,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "70 ms",
+     "tbt": "0 ms",
      "cls": "0"
     }
    }
@@ -142,7 +142,7 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 490,
+   "ms": 478,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -184,7 +184,7 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 129,
+   "ms": 172,
    "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
@@ -218,8 +218,8 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "10 ms",
-     "cls": "0.029"
+     "tbt": "80 ms",
+     "cls": "0.032"
     }
    }
   }
@@ -228,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 95,
+   "ms": 129,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -258,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 206,
+   "ms": 194,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -288,12 +288,12 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 135,
+   "ms": 123,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
    "h2": 16,
-   "words": 2645,
+   "words": 2646,
    "imgs": 49,
    "no_alt": 15,
    "int": 181,
@@ -322,7 +322,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 215,
+   "ms": 218,
    "title": "Surfer - AI visibility platform to get cited in AI search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -356,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 821,
+   "ms": 744,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -485,8 +485,8 @@
    "seo checker chrome extension",
    "seo checker online",
    "seo checker youtube",
-   "seo checker tool",
    "seo checker free online",
+   "seo checker youtube video",
    "seo checker ai",
    "seo checker ahrefs",
    "seo checker audit",
@@ -598,63 +598,10 @@
    "seo link checker extension chrome",
    "seo level checker"
   ],
-  "tags": [
-   "seo checker free",
-   "seo checker tool",
-   "seo check ai",
-   "seo checker online",
-   "seo health checker",
-   "seo metadata checker",
-   "seo performance checker",
-   "seo check keywords",
-   "seo checker on page",
-   "seo checker report",
-   "seo check my website",
-   "seo checker speed",
-   "seo headline checker",
-   "seo check ranking",
-   "seo checker google"
-  ],
-  "titles": [
-   "Free SEO Checker Tool: Audit Your Website Online",
-   "Fast SEO Check AI: Analyze Website Performance",
-   "Free SEO Keyword Checker & Ranking Analysis",
-   "Complete SEO Health Checker: Fix Errors Fast",
-   "SEO Checker Online Free: Get Your SEO Score Now"
-  ]
+  "tags": [],
+  "titles": []
  },
- "plan": [
-  {
-   "priority": "high",
-   "title": "Content ki lambai (Word Count) mein izafa karein",
-   "detail": "Muqabla karne wali sites par average 2244 alfaz hain jabke aap ki site par sirf 331 hain. Content ko detail mein likhein, naye sections shamil karein aur user queries ko cover karein taake depth behtar ho."
-  },
-  {
-   "priority": "high",
-   "title": "Relevant Images add karein aur Image SEO karein",
-   "detail": "Aap ki site par 0 images hain jabke competitors ke paas average 74 images hain. High-quality visual content shamil karein aur un mein proper Alt Text, descriptive file names, aur WebP format ka istemal karein."
-  },
-  {
-   "priority": "high",
-   "title": "Internal Links ka network mazboot karein",
-   "detail": "Competitors ke paas average 152 internal links hain jabke aap ki site par sirf 5 hain. Apni site ke doosre relevant pages aur blog posts ko aapas mein link karein taake crawlability aur link equity behtar ho."
-  },
-  {
-   "priority": "medium",
-   "title": "Headings (H2 aur H3) ka istemal barhayein",
-   "detail": "Content structure ko behtar banane ke liye H2 headings ki tadad 5 se barha kar kam az kam 10 karein. Naye subtopics, FAQs, aur key points ko clear H2/H3 tags mein divide karein."
-  },
-  {
-   "priority": "medium",
-   "title": "Title Tag aur Meta Description ko optimize karein",
-   "detail": "Target keywords ko Title aur Meta Description mein shamil karein. Search Results (SERP) mein CTR barhane ke liye compelling title aur catchy meta description likhein."
-  },
-  {
-   "priority": "low",
-   "title": "Mobile Performance aur Core Web Vitals ko maintain rakhein",
-   "detail": "Aap ki site ka speed score 100/100 hai jo ke behtareen hai. Naye images aur heavy content add karte waqt lazy loading aur compression ka istemal karein taake speed pr koi asar na pare."
-  }
- ],
+ "plan": [],
  "articles": [
   {
    "slug": "seo-health-checker",
@@ -727,5 +674,8 @@
    "keyword": "seo checker for website"
   }
  ],
- "errors": []
+ "errors": [
+  "keywords-ai: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usually tem",
+  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:no reply). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usuall"
+ ]
 }
