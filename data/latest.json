@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T13:04:52+00:00",
+ "generated": "2026-11-25T11:53:40+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 256,
+   "ms": 187,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -58,16 +58,16 @@
   {
    "url": "https://uphotos.org/",
    "status": 200,
-   "ms": 253,
+   "ms": 285,
    "title": "Uphoto: Free Passport Photo Maker Online (Any Country)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
    "h2": 13,
    "words": 1364,
-   "imgs": 1,
+   "imgs": 3,
    "no_alt": 0,
    "int": 56,
-   "ext": 9,
+   "ext": 11,
    "canonical": true,
    "viewport": true,
    "lang": true,
@@ -85,13 +85,22 @@
     }
    ],
    "speed": {
-    "mobile": null
+    "mobile": {
+     "perf": 98,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "1.7 s",
+     "lcp": "1.7 s",
+     "tbt": "0 ms",
+     "cls": "0.017"
+    }
    }
   },
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 188,
+   "ms": 180,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -118,13 +127,22 @@
     }
    ],
    "speed": {
-    "mobile": null
+    "mobile": {
+     "perf": 100,
+     "seo": 100,
+     "acc": 100,
+     "bp": 100,
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "30 ms",
+     "cls": "0"
+    }
    }
   },
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 651,
+   "ms": 241,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -166,7 +184,7 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 143,
+   "ms": 112,
    "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
@@ -200,8 +218,8 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "0 ms",
-     "cls": "0.029"
+     "tbt": "40 ms",
+     "cls": "0.032"
     }
    }
   }
@@ -210,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 48,
+   "ms": 105,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -240,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 251,
+   "ms": 433,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -270,12 +288,12 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 78,
+   "ms": 138,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
    "h2": 16,
-   "words": 2630,
+   "words": 2646,
    "imgs": 49,
    "no_alt": 15,
    "int": 181,
@@ -304,16 +322,16 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 213,
+   "ms": 376,
    "title": "Surfer - AI Visibility Platform to Get Cited in AI Search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
    "h2": 7,
-   "words": 3503,
+   "words": 3539,
    "imgs": 75,
    "no_alt": 61,
    "int": 108,
-   "ext": 55,
+   "ext": 57,
    "canonical": true,
    "viewport": true,
    "lang": true,
@@ -338,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 669,
+   "ms": 681,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -371,7 +389,7 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2241 words hain, tumhari site mein 331",
+  "Muqable ki sites mein average 2251 words hain, tumhari site mein 331",
   "Muqable ki sites mein average 10 H2 headings hain, tumhari site mein 5",
   "Muqable ki sites mein average 74 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 152 internal links hain, tumhari site mein 5"
@@ -581,68 +599,70 @@
    "seo level checker"
   ],
   "tags": [
-   "seo checker tool free",
-   "seo check ranking",
-   "seo checker score",
-   "seo content quality checker",
-   "seo checker backlinks",
-   "seo checker domain authority",
-   "seo performance checker",
-   "seo check keywords",
-   "seo checker report",
-   "seo checker lighthouse",
-   "seo check a website",
-   "seo checker online tool",
-   "seo checker speed",
-   "seo check traffic",
-   "seo metadata checker"
+   "SEO Checker",
+   "Website Audit",
+   "Domain Authority",
+   "Keyword Ranking",
+   "Backlink Checker",
+   "On Page SEO",
+   "YouTube SEO",
+   "Chrome Extension",
+   "Technical SEO",
+   "Spam Score",
+   "SEO Analysis",
+   "Content Checker",
+   "SEO Performance",
+   "Free SEO Tools",
+   "SEO Score"
   ],
   "titles": [
-   "Free SEO Checker Tool: Analyze Your Site Score",
-   "Check SEO Ranking & Content Quality Online",
-   "SEO Check a Website: Free Performance Audit",
-   "Free SEO Checker Online: Boost Site Traffic",
-   "Run an Instant SEO Check for Keywords & Rank"
+   "Free SEO Checker Tool: Audit Your Website",
+   "How to Check SEO Keyword Rankings Online",
+   "Best SEO Checker Extensions for Chrome",
+   "Free SEO Content Checker & Plagiarism Tool",
+   "SEO Checker for YouTube: Rank Your Videos"
   ]
  },
  "plan": [
   {
    "priority": "high",
-   "title": "Content Ki Lambaai (Word Count) Barhaayein",
-   "detail": "Aap ki site par sirf 331 words hain jabkay muqablay ki sites par average 2241 words hain. Content ko zaroori jankari aur relevant keywords ke saath kam az kam 2000+ words tak tafseel se likhein."
+   "title": "Content ki Tafseel aur Word Count ko Barhain",
+   "detail": "Muqabla karne wali sites par average 2251 words hain jabke aap ki site par sirf 331 words hain. SEO rankings behtar karne ke liye apne topic par comprehensive content likhein aur word count kam se kam 2000+ tak le jayein."
   },
   {
    "priority": "high",
-   "title": "High-Quality Images Aur Alt Tags Shamil Karein",
-   "detail": "Aap ki site par filhal 0 images hain jabkay competitors 74 images istemaal kar rahe hain. Post mein relevant, compressed images lagayein aur un mein targeted SEO Alt Tags zaroor dalein."
+   "title": "Relevant Images Add Karein aur ALT Tags Lagayein",
+   "detail": "Aap ki site par abhi 0 images hain jabke competitors ke paas average 74 images hain. Visual appeal aur Image SEO ke liye high-quality images add karein aur un mein target keywords ke sath ALT tags zaroor shamil karein."
   },
   {
    "priority": "high",
-   "title": "H2 Headings Ki Tadad Aur Structure Behtar Karein",
-   "detail": "Muqablay ki sites par average 10 H2 headings hain jabkay aap ke paas sirf 5 hain. Content ko structured aur parhne mein aasan banane ke liye mazeed H2 aur H3 headings add karein."
+   "title": "Internal Linking Strategy ko Behtar Banayein",
+   "detail": "Aap ki site par sirf 5 internal links hain jabke competitor sites par average 152 links hain. Apni site ke doosre relevant pages aur articles ko aapas mein link karein taake crawler aur users dono ko behtar navigation mile."
   },
   {
    "priority": "medium",
-   "title": "Internal Linking Strategy Ko Strong Karein",
-   "detail": "Aap ki site par sirf 5 internal links hain jabkay competitors ke paas 152 hain. Apni site ke doosre relevant pages aur blog posts ko aapas mein contextually link karein."
+   "title": "H2 Headings ki Structure aur Tadaad mein Izafa Karein",
+   "detail": "Muqablay ki sites par average 10 H2 headings hain jabke aap ki site par 5 hain. Content ko mazeed structured aur readable banane ke liye relevant sub-topics par H2 headings shamil karein."
   },
   {
    "priority": "medium",
-   "title": "SEO Optimized Meta Title Aur Description Likhein",
-   "detail": "Naye aur expanded content ke mutabiq catchy Meta Title (50-60 characters) aur Meta Description (150-160 characters) banayein taakay Google CTR (Click-Through Rate) barhay."
+   "title": "Optimised Meta Title aur Meta Description Likhain",
+   "detail": "Search Results mein Click-Through Rate (CTR) barhane ke liye target keywords ke sath aik attractive Meta Title (50-60 characters) aur Meta Description (150-160 characters) add karein."
   },
   {
    "priority": "low",
-   "title": "Schema Markup (Structured Data) Implement Karein",
-   "detail": "Google Rich Snippets ke liye Article, FAQ, ya Product Schema Markup add karein taakay search engine aap ke content ko behtar tareeqay se samajh sakay."
-  },
-  {
-   "priority": "low",
-   "title": "Current Mobile Speed Score Maintain Bakee Rakhein",
-   "detail": "Aap ka speed score 100/100 hai jo ke behtareen hai. Nayi images add kartay waqt WebP format aur lazy-loading ka istemaal karein taakay speed kam na ho."
+   "title": "Mobile Speed aur Technical Scores ko Maintain Rakhein",
+   "detail": "Aap ki mobile performance aur SEO score 100/100 hain jo ke perfect hain. Naye images aur content add karte waqt WebP format aur lazy loading ka istemaal karein taake speed 100/100 hi rahe."
   }
  ],
  "articles": [
+  {
+   "slug": "seo-ranking-checker-free",
+   "title": "Free SEO Ranking Checker: Track Website Keywords",
+   "desc": "Track keyword rankings for free with our AI-powered SEO tool. Monitor search positions, analyze competitors, run audits, and boost organic traffic.",
+   "date": "2026-11-25",
+   "keyword": "seo ranking checker free"
+  },
   {
    "slug": "seo-content-quality-checker",
    "title": "How to Use an SEO Content Quality Checker for Higher Rankings",
@@ -721,8 +741,5 @@
    "keyword": "seo checker for website"
   }
  ],
- "errors": [
-  "speed https://uphotos.pages.dev/ mobile: PageSpeed error 500",
-  "speed https://speakanalytics.pages.dev/ mobile: PageSpeed error 500"
- ]
+ "errors": []
 }
