@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T11:53:40+00:00",
+ "generated": "2026-11-26T11:46:49+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 187,
+   "ms": 149,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -58,12 +58,12 @@
   {
    "url": "https://uphotos.org/",
    "status": 200,
-   "ms": 285,
+   "ms": 400,
    "title": "Uphoto: Free Passport Photo Maker Online (Any Country)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
-   "h2": 13,
-   "words": 1364,
+   "h2": 14,
+   "words": 1387,
    "imgs": 3,
    "no_alt": 0,
    "int": 56,
@@ -88,19 +88,19 @@
     "mobile": {
      "perf": 98,
      "seo": 100,
-     "acc": 100,
+     "acc": 95,
      "bp": 100,
      "fcp": "1.7 s",
      "lcp": "1.7 s",
-     "tbt": "0 ms",
-     "cls": "0.017"
+     "tbt": "10 ms",
+     "cls": "0.023"
     }
    }
   },
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 180,
+   "ms": 163,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -134,7 +134,7 @@
      "bp": 100,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "30 ms",
+     "tbt": "0 ms",
      "cls": "0"
     }
    }
@@ -142,7 +142,7 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 241,
+   "ms": 334,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -174,8 +174,8 @@
      "seo": 100,
      "acc": 93,
      "bp": 100,
-     "fcp": "1.0 s",
-     "lcp": "1.0 s",
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
      "tbt": "0 ms",
      "cls": "0.012"
     }
@@ -184,12 +184,12 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 112,
-   "title": "Family Stories: Turn Family Memories into a Story | UmarCalm",
+   "ms": 163,
+   "title": "Family Stories: Turn Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
    "h2": 12,
-   "words": 1200,
+   "words": 1199,
    "imgs": 1,
    "no_alt": 0,
    "int": 37,
@@ -218,8 +218,8 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "40 ms",
-     "cls": "0.032"
+     "tbt": "50 ms",
+     "cls": "0.029"
     }
    }
   }
@@ -228,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 105,
+   "ms": 76,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -258,12 +258,12 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 433,
+   "ms": 167,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
    "h2": 9,
-   "words": 1135,
+   "words": 1134,
    "imgs": 45,
    "no_alt": 20,
    "int": 123,
@@ -288,12 +288,12 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 138,
+   "ms": 124,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
    "h2": 16,
-   "words": 2646,
+   "words": 2656,
    "imgs": 49,
    "no_alt": 15,
    "int": 181,
@@ -322,7 +322,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 376,
+   "ms": 332,
    "title": "Surfer - AI Visibility Platform to Get Cited in AI Search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -356,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 681,
+   "ms": 694,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -389,13 +389,13 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2251 words hain, tumhari site mein 331",
+  "Muqable ki sites mein average 2253 words hain, tumhari site mein 331",
   "Muqable ki sites mein average 10 H2 headings hain, tumhari site mein 5",
   "Muqable ki sites mein average 74 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 152 internal links hain, tumhari site mein 5"
  ],
  "keywords": {
-  "count": 1056,
+  "count": 1054,
   "questions": [
    "what is seo checker",
    "how check seo",
@@ -404,7 +404,6 @@
    "why seo rapid index checker",
    "is seo really worth it",
    "what is a free seo audit tool",
-   "what is seo audit tool",
    "is a free seo audit tool",
    "is one of the free seo audit tool",
    "what is keyword research",
@@ -429,6 +428,7 @@
    "what is keyword research in bangla",
    "why keyword research is important in seo",
    "why keyword research",
+   "how to do keyword research",
    "is keyword research still important",
    "is keyword tool free",
    "why is keyword research important in seo",
@@ -479,14 +479,14 @@
   "others": [
    "seo checker",
    "seo checker free",
-   "seo checker website",
    "seo checker google",
+   "seo checker website",
    "seo checker extension",
    "seo checker chrome extension",
    "seo checker online",
    "seo checker youtube",
    "seo checker free online",
-   "seo checker youtube video",
+   "seo checker for youtube video",
    "seo checker ai",
    "seo checker ahrefs",
    "seo checker audit",
@@ -498,8 +498,8 @@
    "seo check a website",
    "seo check audit",
    "seo checker blog",
-   "seo checker by google",
    "seo checker backlinko",
+   "seo checker by google",
    "seo checker by seekho",
    "seo checker backlinks",
    "seo checker by seekhlo",
@@ -537,14 +537,13 @@
    "seo analysis extension",
    "seo checker for website",
    "seo checker free tool",
-   "seo checker for blog",
-   "seo checker for youtube video",
    "seo checker for article",
    "seo checker free google",
-   "seo checker for localhost",
+   "seo checker for blog",
    "seo checker for youtube",
-   "seo checker github",
+   "seo checker for content",
    "seo checker google chrome extension",
+   "seo checker github",
    "google seo checker extension",
    "seo check google",
    "seo check google analytics",
@@ -596,65 +595,13 @@
    "seo check lighthouse",
    "seo length checker",
    "seo link checker extension chrome",
-   "seo level checker"
+   "seo level checker",
+   "seo checker moz"
   ],
-  "tags": [
-   "SEO Checker",
-   "Website Audit",
-   "Domain Authority",
-   "Keyword Ranking",
-   "Backlink Checker",
-   "On Page SEO",
-   "YouTube SEO",
-   "Chrome Extension",
-   "Technical SEO",
-   "Spam Score",
-   "SEO Analysis",
-   "Content Checker",
-   "SEO Performance",
-   "Free SEO Tools",
-   "SEO Score"
-  ],
-  "titles": [
-   "Free SEO Checker Tool: Audit Your Website",
-   "How to Check SEO Keyword Rankings Online",
-   "Best SEO Checker Extensions for Chrome",
-   "Free SEO Content Checker & Plagiarism Tool",
-   "SEO Checker for YouTube: Rank Your Videos"
-  ]
+  "tags": [],
+  "titles": []
  },
- "plan": [
-  {
-   "priority": "high",
-   "title": "Content ki Tafseel aur Word Count ko Barhain",
-   "detail": "Muqabla karne wali sites par average 2251 words hain jabke aap ki site par sirf 331 words hain. SEO rankings behtar karne ke liye apne topic par comprehensive content likhein aur word count kam se kam 2000+ tak le jayein."
-  },
-  {
-   "priority": "high",
-   "title": "Relevant Images Add Karein aur ALT Tags Lagayein",
-   "detail": "Aap ki site par abhi 0 images hain jabke competitors ke paas average 74 images hain. Visual appeal aur Image SEO ke liye high-quality images add karein aur un mein target keywords ke sath ALT tags zaroor shamil karein."
-  },
-  {
-   "priority": "high",
-   "title": "Internal Linking Strategy ko Behtar Banayein",
-   "detail": "Aap ki site par sirf 5 internal links hain jabke competitor sites par average 152 links hain. Apni site ke doosre relevant pages aur articles ko aapas mein link karein taake crawler aur users dono ko behtar navigation mile."
-  },
-  {
-   "priority": "medium",
-   "title": "H2 Headings ki Structure aur Tadaad mein Izafa Karein",
-   "detail": "Muqablay ki sites par average 10 H2 headings hain jabke aap ki site par 5 hain. Content ko mazeed structured aur readable banane ke liye relevant sub-topics par H2 headings shamil karein."
-  },
-  {
-   "priority": "medium",
-   "title": "Optimised Meta Title aur Meta Description Likhain",
-   "detail": "Search Results mein Click-Through Rate (CTR) barhane ke liye target keywords ke sath aik attractive Meta Title (50-60 characters) aur Meta Description (150-160 characters) add karein."
-  },
-  {
-   "priority": "low",
-   "title": "Mobile Speed aur Technical Scores ko Maintain Rakhein",
-   "detail": "Aap ki mobile performance aur SEO score 100/100 hain jo ke perfect hain. Naye images aur content add karte waqt WebP format aur lazy loading ka istemaal karein taake speed 100/100 hi rahe."
-  }
- ],
+ "plan": [],
  "articles": [
   {
    "slug": "seo-ranking-checker-free",
@@ -741,5 +688,8 @@
    "keyword": "seo checker for website"
   }
  ],
- "errors": []
+ "errors": [
+  "keywords-ai: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usually tem",
+  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usually tem"
+ ]
 }
