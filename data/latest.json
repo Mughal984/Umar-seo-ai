@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T11:46:49+00:00",
+ "generated": "2026-11-27T11:38:33+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 149,
+   "ms": 332,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -58,16 +58,16 @@
   {
    "url": "https://uphotos.org/",
    "status": 200,
-   "ms": 400,
+   "ms": 219,
    "title": "Uphoto: Free Passport Photo Maker Online (Any Country)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
    "h2": 14,
    "words": 1387,
-   "imgs": 3,
+   "imgs": 4,
    "no_alt": 0,
    "int": 56,
-   "ext": 11,
+   "ext": 12,
    "canonical": true,
    "viewport": true,
    "lang": true,
@@ -86,13 +86,13 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 98,
+     "perf": 92,
      "seo": 100,
      "acc": 95,
      "bp": 100,
-     "fcp": "1.7 s",
-     "lcp": "1.7 s",
-     "tbt": "10 ms",
+     "fcp": "1.8 s",
+     "lcp": "1.8 s",
+     "tbt": "260 ms",
      "cls": "0.023"
     }
    }
@@ -100,7 +100,7 @@
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 163,
+   "ms": 97,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -134,7 +134,7 @@
      "bp": 100,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "0 ms",
+     "tbt": "20 ms",
      "cls": "0"
     }
    }
@@ -142,7 +142,7 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 334,
+   "ms": 252,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -174,8 +174,8 @@
      "seo": 100,
      "acc": 93,
      "bp": 100,
-     "fcp": "0.9 s",
-     "lcp": "0.9 s",
+     "fcp": "1.0 s",
+     "lcp": "1.0 s",
      "tbt": "0 ms",
      "cls": "0.012"
     }
@@ -184,7 +184,7 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 163,
+   "ms": 134,
    "title": "Family Stories: Turn Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
@@ -218,7 +218,7 @@
      "bp": 100,
      "fcp": "0.8 s",
      "lcp": "0.8 s",
-     "tbt": "50 ms",
+     "tbt": "20 ms",
      "cls": "0.029"
     }
    }
@@ -228,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 76,
+   "ms": 69,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -258,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 167,
+   "ms": 155,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -288,7 +288,7 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 124,
+   "ms": 76,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
@@ -322,7 +322,7 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 332,
+   "ms": 278,
    "title": "Surfer - AI Visibility Platform to Get Cited in AI Search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
@@ -356,7 +356,7 @@
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 694,
+   "ms": 732,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -598,11 +598,40 @@
    "seo level checker",
    "seo checker moz"
   ],
-  "tags": [],
-  "titles": []
+  "tags": [
+   "seo checker free",
+   "seo checker website",
+   "seo checker google",
+   "seo check keywords",
+   "seo check online",
+   "seo check site",
+   "seo check traffic",
+   "seo checker report",
+   "seo checker score",
+   "seo checker speed",
+   "seo checker on page",
+   "seo performance checker",
+   "seo checker domain authority",
+   "seo check url",
+   "seo checker tool free"
+  ],
+  "titles": [
+   "Free SEO Checker Tool: Audit Your Website Today",
+   "Best SEO Checker Online for Website Analysis",
+   "SEO Check Google Rankings & Page Speed Fast",
+   "Free SEO Check Traffic and Keyword Rankings",
+   "Run an Instant SEO Check on Your Website"
+  ]
  },
  "plan": [],
  "articles": [
+  {
+   "slug": "seo-checker-free-tool",
+   "title": "How to Use a Free SEO Checker Tool to Boost Rankings",
+   "desc": "Learn how to use a free SEO checker tool to run site audits, find high-intent keywords, analyze competitors, and optimize content to boost rankings.",
+   "date": "2026-11-27",
+   "keyword": "seo checker free tool"
+  },
   {
    "slug": "seo-ranking-checker-free",
    "title": "Free SEO Ranking Checker: Track Website Keywords",
@@ -689,7 +718,6 @@
   }
  ],
  "errors": [
-  "keywords-ai: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usually tem",
-  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:503). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usually tem"
+  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:no reply). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usuall"
  ]
 }
