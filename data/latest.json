@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T11:38:33+00:00",
+ "generated": "2026-11-28T11:10:47+00:00",
  "site": "https://mughal984.github.io/Umar-seo-ai/",
  "ai": true,
  "sites": [
   {
    "url": "https://mughal984.github.io/Umar-seo-ai/",
    "status": 200,
-   "ms": 332,
+   "ms": 82,
    "title": "UMA SEO AI - Free automated SEO agent",
    "meta": "A free SEO agent that audits your site every day, checks speed with Google PageSpeed, compares competitors, finds keywords and writes SEO articles.",
    "h1": 1,
@@ -58,15 +58,15 @@
   {
    "url": "https://uphotos.org/",
    "status": 200,
-   "ms": 219,
+   "ms": 349,
    "title": "Uphoto: Free Passport Photo Maker Online (Any Country)",
    "meta": "Make a passport size photo online free. Uphoto sets the correct size, pixels and background color for countries worldwide, then exports JPG or PDF instantly.",
    "h1": 1,
    "h2": 14,
-   "words": 1387,
+   "words": 1414,
    "imgs": 4,
    "no_alt": 0,
-   "int": 56,
+   "int": 59,
    "ext": 12,
    "canonical": true,
    "viewport": true,
@@ -86,13 +86,13 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 92,
+     "perf": 76,
      "seo": 100,
-     "acc": 95,
+     "acc": 91,
      "bp": 100,
-     "fcp": "1.8 s",
-     "lcp": "1.8 s",
-     "tbt": "260 ms",
+     "fcp": "3.8 s",
+     "lcp": "3.8 s",
+     "tbt": "30 ms",
      "cls": "0.023"
     }
    }
@@ -100,7 +100,7 @@
   {
    "url": "https://speakanalytics.pages.dev/",
    "status": 200,
-   "ms": 97,
+   "ms": 94,
    "title": "SpeakMySite - Check your website by voice",
    "meta": "Check your website, YouTube channel and social pages by voice or text. Get simple answers in your own language. Free, made for people who cannot read or write.",
    "h1": 1,
@@ -134,7 +134,7 @@
      "bp": 100,
      "fcp": "0.9 s",
      "lcp": "0.9 s",
-     "tbt": "20 ms",
+     "tbt": "0 ms",
      "cls": "0"
     }
    }
@@ -142,7 +142,7 @@
   {
    "url": "https://poxstudio.netlify.app/",
    "status": 200,
-   "ms": 252,
+   "ms": 315,
    "title": "Free YouTube Thumbnail Maker Online - No Watermark | POX Studio",
    "meta": "Free YouTube thumbnail maker and photo editor online. Add text, badges and effects, export HD 1280x720 with no watermark. No signup needed.",
    "h1": 1,
@@ -184,7 +184,7 @@
   {
    "url": "https://umarcalm.pages.dev/",
    "status": 200,
-   "ms": 134,
+   "ms": 127,
    "title": "Family Stories: Turn Memories into a Story | UmarCalm",
    "meta": "UmarCalm is a family stories website only. Turn one memory of your grandparents or parents into a story with our free AI story writer, in any language.",
    "h1": 1,
@@ -212,14 +212,14 @@
    ],
    "speed": {
     "mobile": {
-     "perf": 100,
+     "perf": 97,
      "seo": 100,
      "acc": 100,
      "bp": 100,
-     "fcp": "0.8 s",
-     "lcp": "0.8 s",
-     "tbt": "20 ms",
-     "cls": "0.029"
+     "fcp": "0.9 s",
+     "lcp": "0.9 s",
+     "tbt": "200 ms",
+     "cls": "0.032"
     }
    }
   }
@@ -228,7 +228,7 @@
   {
    "url": "https://ahrefs.com",
    "status": 200,
-   "ms": 69,
+   "ms": 36,
    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
    "meta": "We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.",
    "h1": 1,
@@ -258,7 +258,7 @@
   {
    "url": "https://www.semrush.com",
    "status": 200,
-   "ms": 155,
+   "ms": 97,
    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
    "meta": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
    "h1": 1,
@@ -288,7 +288,7 @@
   {
    "url": "https://moz.com",
    "status": 200,
-   "ms": 76,
+   "ms": 29,
    "title": "Moz - SEO Software for Smarter Marketing",
    "meta": "Backed by the largest community of SEOs on the planet, Moz builds the tools that make SEO, content marketing, market research, digital PR, and local SEO easy. Start your free trial today!",
    "h1": 1,
@@ -322,16 +322,16 @@
   {
    "url": "https://surfer.ai/",
    "status": 200,
-   "ms": 278,
+   "ms": 279,
    "title": "Surfer - AI Visibility Platform to Get Cited in AI Search",
    "meta": "Get your brand mentioned and cited in ChatGPT, Gemini, Perplexity and Google AI Overviews. Track your AI visibility, close mention gaps and create content AI cites and Google ranks.",
    "h1": 1,
-   "h2": 7,
-   "words": 3539,
-   "imgs": 75,
-   "no_alt": 61,
+   "h2": 6,
+   "words": 4001,
+   "imgs": 104,
+   "no_alt": 86,
    "int": 108,
-   "ext": 57,
+   "ext": 51,
    "canonical": true,
    "viewport": true,
    "lang": true,
@@ -349,14 +349,14 @@
     },
     {
      "l": "warn",
-     "t": "61 images par alt text nahi hai"
+     "t": "86 images par alt text nahi hai"
     }
    ]
   },
   {
    "url": "https://seranking.com",
    "status": 200,
-   "ms": 732,
+   "ms": 628,
    "title": "SE Ranking: SEO software with data you can trust",
    "meta": "SEO software for agencies and in-house teams. Research keywords, track rankings, audit sites, and report on performance with data that holds up.",
    "h1": 1,
@@ -389,13 +389,13 @@
   }
  ],
  "gaps": [
-  "Muqable ki sites mein average 2253 words hain, tumhari site mein 331",
+  "Muqable ki sites mein average 2345 words hain, tumhari site mein 331",
   "Muqable ki sites mein average 10 H2 headings hain, tumhari site mein 5",
-  "Muqable ki sites mein average 74 images hain, tumhari site mein 0",
+  "Muqable ki sites mein average 80 images hain, tumhari site mein 0",
   "Muqable ki sites mein average 152 internal links hain, tumhari site mein 5"
  ],
  "keywords": {
-  "count": 1054,
+  "count": 1053,
   "questions": [
    "what is seo checker",
    "how check seo",
@@ -574,7 +574,6 @@
    "seo js checker",
    "seo analyst jobs",
    "javascript seo checker",
-   "seo ranking checker free",
    "check my seo ranking",
    "seo checker keywords",
    "seo checker keyword ranking",
@@ -596,35 +595,79 @@
    "seo length checker",
    "seo link checker extension chrome",
    "seo level checker",
-   "seo checker moz"
+   "seo checker moz",
+   "seo checker meaning"
   ],
   "tags": [
-   "seo checker free",
-   "seo checker website",
-   "seo checker google",
-   "seo check keywords",
-   "seo check online",
-   "seo check site",
-   "seo check traffic",
-   "seo checker report",
-   "seo checker score",
-   "seo checker speed",
-   "seo checker on page",
-   "seo performance checker",
-   "seo checker domain authority",
-   "seo check url",
-   "seo checker tool free"
+   "SEO Checker Google",
+   "SEO Check AI",
+   "On Page SEO Checker",
+   "SEO Keyword Checker",
+   "SEO Check Website",
+   "Free SEO Report",
+   "SEO Check Traffic",
+   "SEO Score Checker",
+   "SEO Readability Checker",
+   "SEO Check Domain Name",
+   "SEO Backlink Checker",
+   "SEO Performance Checker",
+   "SEO Check URL",
+   "SEO Speed Checker",
+   "SEO Title Checker"
   ],
   "titles": [
-   "Free SEO Checker Tool: Audit Your Website Today",
-   "Best SEO Checker Online for Website Analysis",
-   "SEO Check Google Rankings & Page Speed Fast",
-   "Free SEO Check Traffic and Keyword Rankings",
-   "Run an Instant SEO Check on Your Website"
+   "Free SEO Checker Tool Online: Audit Your Site",
+   "SEO Check AI: Free Website SEO Analysis",
+   "How to SEO Check a Website for Free",
+   "Free SEO Check Online: Improve Site Score",
+   "SEO Keyword Checker for Website Optimization"
   ]
  },
- "plan": [],
+ "plan": [
+  {
+   "priority": "high",
+   "title": "Content ki Tafseel aur Word Count Barhaen",
+   "detail": "Aapki site par sirf 331 words hain jabke muqablay ki sites par average 2345 words hain. Content mein depth laen, topic ko achi tarah cover karein aur word count ko kam az kam 2000+ words tak le jaen."
+  },
+  {
+   "priority": "high",
+   "title": "Relevant Images aur Visual Content Add Karein",
+   "detail": "Site par filhal 0 images hain jabke competitors average 80 images istemal kar rahe hain. Topic se related high-quality images, infographics aur charts shamil karein."
+  },
+  {
+   "priority": "high",
+   "title": "Internal Linking Network Ko Strong Karein",
+   "detail": "Aapki site par sirf 5 internal links hain jabke competitors ke 152 hain. Apne doosre relevant pages aur blog posts ko aapas mein link karein taake link equity pass ho sake."
+  },
+  {
+   "priority": "medium",
+   "title": "H2 Headings aur Structure Sub-topics Barhaen",
+   "detail": "Muqablay ki sites 10 H2 headings use kar rahi hain jabke aap ke paas 5 hain. Content ko Behtar structure dene ke liye naye sub-topics aur FAQs ko H2 aur H3 tags mein shamil karein."
+  },
+  {
+   "priority": "medium",
+   "title": "Meta Title aur Description Optimize Karein",
+   "detail": "Target keywords ke saath ek catchy Meta Title (50-60 characters) aur compelling Meta Description (150-160 characters) likhein taake SERP par CTR improve ho sake."
+  },
+  {
+   "priority": "low",
+   "title": "Images ke liye SEO Alt Text aur WebP Format Use Karein",
+   "detail": "Nayi images add karte waqt target keywords ke sath SEO-friendly Alt Text likhein aur images ko WebP format mein compress karein."
+  },
+  {
+   "priority": "low",
+   "title": "100/100 Speed Score ko Maintain Rakhein",
+   "detail": "Aapki mobile speed aur performance 100/100 hai. Naya heavy content aur images add karne ke baad monitor karein ke speed aur Core Web Vitals kharab na ho."
+  }
+ ],
  "articles": [
+  {
+   "slug": "seo-check-ai",
+   "title": "How to Use SEO Check AI for Instant Website Audits",
+   "desc": "Learn how an SEO check AI tool can instantly audit your website, discover top keywords, analyze competitors, and improve your search rankings.",
+   "date": "2026-11-28",
+   "keyword": "seo check ai"
+  },
   {
    "slug": "seo-checker-free-tool",
    "title": "How to Use a Free SEO Checker Tool to Boost Rankings",
@@ -717,7 +760,5 @@
    "keyword": "seo checker for website"
   }
  ],
- "errors": [
-  "plan: Gemini fail (gemini-3.8-flash:503,gemini-3.7-flash:503,gemini-flash-latest:503,gemini-3.5-flash:no reply). Google ne kaha: This model is currently experiencing high demand. Spikes in demand are usuall"
- ]
+ "errors": []
 }
